@@ -1,0 +1,151 @@
+{
+ "urls": {
+    "main": {
+      "path": "/",
+      "controller": "Ig\\Lg\\Controllers\\IndexController::indexAction",
+      "method": "GET"
+    },
+    "services": {
+      "path": "/services",
+      "controller": "Ig\\Lg\\Controllers\\ServiceController::indexAction",
+      "method": "GET"
+    },
+    "projects": {
+      "path": "/projects",
+      "controller": "Ig\\Lg\\Controllers\\ProjectController::indexAction",
+      "method": "GET"
+    },
+    "contacts": {
+      "path": "/contacts",
+      "controller": "Ig\\Lg\\Controllers\\ContactController::indexAction",
+      "method": "GET"
+    },
+    "add contacts": {
+      "path": "/contacts",
+      "controller": "Ig\\Lg\\Controllers\\ContactController::addRequest",
+      "method": "POST"
+    },
+    "login page": {
+      "path": "/login",
+      "controller": "Ig\\Lg\\Controllers\\AccountController::indexAction",
+      "method": "GET"
+    },
+    "authorisation": {
+      "path": "/login",
+      "controller": "Ig\\Lg\\Controllers\\AccountController::login",
+      "method": "POST"
+    },
+    "account page": {
+      "path": "/account",
+      "controller": "Ig\\Lg\\Controllers\\AccountController::getUserPage",
+      "method": "GET"
+    },
+    "admin login page": {
+      "path": "/admin",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::indexAction",
+      "method": "GET"
+    },
+    "admin authorisation": {
+      "path": "/admin",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::login",
+      "method": "POST"
+    },
+    "add trip": {
+      "path": "/account/addTrip",
+      "controller": "Ig\\Lg\\Controllers\\AccountController::addTrip",
+      "method": "POST"
+    },
+    "add user ticket": {
+      "path": "/account/addUserTicket",
+      "controller": "Ig\\Lg\\Controllers\\AccountController::addUserTicket",
+      "method": "POST"
+    },
+    "logout": {
+      "path": "/logout",
+      "controller": "Ig\\Lg\\Controllers\\AccountController::logout",
+      "method": "GET"
+    },
+    "admin requests": {
+      "path": "/admin/requests",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::indexRequest",
+      "method": "GET"
+    },
+    "admin users": {
+      "path": "/admin/users",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::indexUser",
+      "method": "GET"
+    },
+    "admin add user": {
+      "path": "/admin/adduser",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::addUser",
+      "method": "POST"
+    },
+    "admin delete user": {
+      "path": "/admin/deleteuser",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::deleteUser",
+      "method": "POST"
+    },
+    "admin change user": {
+      "path": "/admin/changeuser",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::changeUser",
+      "method": "POST"
+    },
+    "show user": {
+      "path": "/user/{id:\\d+}",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::showUser",
+      "method": "GET"
+    },
+    "admin projects": {
+      "path": "/admin/projects",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::indexProject",
+      "method": "GET"
+    },
+    "admin add project": {
+      "path": "/admin/addproject",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::addProject",
+      "method": "POST"
+    },
+    "admin delete projects": {
+      "path": "/admin/deleteprojects",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::deleteProjects",
+      "method": "POST"
+    },
+    "admin change projects": {
+      "path": "/admin/changeprojects",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::changeProjects",
+      "method": "POST"
+    },
+    "admin services": {
+      "path": "/admin/services",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::indexService",
+      "method": "GET"
+    },
+    "admin news": {
+      "path": "/admin/news",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::indexNews",
+      "method": "GET"
+    },
+    "admin add news": {
+      "path": "/admin/addnews",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::addNews",
+      "method": "POST"
+    },
+    "admin change news": {
+      "path": "/admin/changenews",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::changeNews",
+      "method": "POST"
+    },
+    "admin delete news": {
+      "path": "/admin/deletenews",
+      "controller": "Ig\\Lg\\Controllers\\AdminController::deleteNews",
+      "method": "POST"
+    }
+  },
+  "db": {
+    "server": "127.0.0.1",
+    "dbname": "lemming",
+    "user": "ignatova",
+    "pass": "ignatova13",
+    "charset": "utf8"
+  }
+}

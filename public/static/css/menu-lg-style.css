@@ -1,0 +1,72 @@
+
+.dws-menu {
+    background: rgba(26, 74, 137, 0.8);
+    text-align: center;
+    }
+.dws-menu > ul{
+display: flex;
+justify-content: center;
+}
+.dws-menu > ul li{
+ flex: 1;
+ }
+
+.dws-menu a {
+    /* display: inline-block; */
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    display: block;
+    }
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ display: block;
+ text-transform: uppercase;
+}
+.dws-menu > ul li > a:hover{
+ background: rgba(69, 175, 175, 0.8);
+}
+
+/*==== MEDIA ====*/
+
+.dws-menu [type="checkbox"]{
+ display: none;
+}
+
+.dws-menu label.toggleMenu{
+background: rgba(26, 74, 137, 0.8);
+display: none;
+padding: 1.5rem 0;
+text-transform: uppercase;
+cursor: pointer;
+position: relative;
+color: white;
+font-family: sans-serif;
+}
+
+
+@media all and (max-width: 550px){
+ .dws-menu{
+  overflow: hidden;
+ }
+ .dws-menu [type="checkbox"]{
+  display: none;
+ }
+ .dws-menu ul{
+  display: block;
+  max-height: 0;
+  transition: max-height 0.1s;
+ }
+
+ .dws-menu label.toggleMenu{
+  display: block;
+ }
+ input.toggleMenu:checked + label.toggleMenu{
+  background: #000;
+  color: #aaa;
+ }
+ input.toggleMenu:checked ~ ul{
+  display: block;
+  position: relative;
+  max-height: 5000px;
+  transition: max-height 2s ease-in;
+ }

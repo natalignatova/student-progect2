@@ -1,0 +1,37 @@
+.lg-div {
+  height: 28vh;
+  width: 100%;
+  margin-bottom: .5rem;
+  padding: .5rem;
+  }
+
+.lg-div h3 {
+    margin: .5rem 0 .5rem 1rem ;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+  }
+
+.overflow-auto {
+    overflow: auto;
+  }
+
+.lg-div p {
+    margin-left: 1rem;
+    color: white;
+    font-family: sans-serif;
+  }
+
+.lg-img {
+    background-size: cover;
+    overflow: hidden;
+  }
+
+.lg-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+.border-lg {
+    border: .15rem solid lightgrey;
+  }

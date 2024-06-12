@@ -1,0 +1,23 @@
+{
+    "name": "ig/lg",
+    "description": "thesis project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ignatova Nata",
+            "email": "ignatova_nata@inbox.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "nikic/fast-route": "^2.0@dev",
+      "ext-json": "*",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+      "psr-4": {
+         "Ig\\Lg\\": "src/"
+     }
+   }
+}

@@ -1,0 +1,66 @@
+@import "scroll.css";
+
+html {
+scroll-behavior: smooth;
+}
+
+.invis {
+    display: none;
+}
+
+.border-none {
+  outline:  0;
+}
+
+ textarea,
+ input {
+    border: none;
+   }
+.border {
+  border: 1;
+}
+.size {
+  width: 230px;
+}
+
+.margin {
+  margin: .7rem -0.4rem .7rem 0;
+}
+
+.pwdbtn{
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* .margin-left {
+  margin-left: .7rem;
+} */
+
+td {
+  padding-right:.7rem;
+}
+
+.btn {
+  margin-top: .5rem;
+  margin-right: .5rem;
+}
+
+#news_desc {
+  width: 100%;
+}
+
+.card {
+  padding-bottom: .7rem;
+}
+.card-header {
+  margin-bottom: .7rem;
+}
+.inputwidth {
+  width: 7rem;
+}
